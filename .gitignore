@@ -1,0 +1,38 @@
+# Python Cache
+__pycache__/
+
+# Environments
+.venv/
+bin/
+
+# Editor settings
+.vscode/
+
+# Local package installations
+numpy/
+numpy-*/
+numpy.libs/
+pyDOE2/
+pydoe2-*/
+
+scipy/
+scipy-1.17.1.dist-info/
+scipy.libs/
+*.whl
+*.exe
+*.csv
+*.pt
+*.pkl
+*.npz
+
+# Datasets
+*.csv
+
+# Model Weights and Scalers
+*.pkl
+airfoil_surrogate/
+airfoil_surrogate_full/
+
+# Generated Plots / Binaries
+*.png
+*.exe
